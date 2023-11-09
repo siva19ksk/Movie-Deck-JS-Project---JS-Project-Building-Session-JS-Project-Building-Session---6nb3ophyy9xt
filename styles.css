@@ -1,1 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: black;
+    padding: 1rem;
+}
+#inside-header-div h1 a{
+    color: white;
+    text-decoration: none;
+}
 
+.input-search-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.input-search-btn input{
+    font-size: 15px;
+    padding: 0.3em 6em 0.3em 0.2em;
+    border-radius: 7px;
+    border-style: solid;
+}
+.input-search-btn button{
+    font-size: 15px;
+    padding: 0.3em 0.9em;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.sorting{
+    margin-top: 1%;
+    padding-left: 20px;
+}
+#inside-sorting{
+    display: flex;
+    justify-content: center;
+}
+#inside-sorting div{
+    padding: 0.2em 0.5em;
+    background-color: rgb(243, 239, 239);
+    font-weight: bold;
+    margin-right:1% ;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.filtering{
+    margin-top: 2%;
+    margin-left: 4%;
+}
+#inside-filtering{
+    display: flex;
+}
+#inside-filtering div{
+    /* width: 7%; */
+    background-color: rgb(243, 239, 239);
+    font-weight: bold;
+    margin-right:1% ;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 5px;
+}
+#inside-filtering #all p{
+    /* width: 30%; */
+    margin: 0 auto;
+}
+/* #inside-filtering #fav p{
+    width: 80%;
+    margin: 0 auto;
+} */
+
+#main-card{
+    padding: 2em 6em;
+}
+#card-container{
+    display: flex;
+    /* width: 100%; */
+    flex-wrap: wrap;
+    border: 1px solid goldenrod;
+    justify-content: center;
+}
+#inside_card_container{
+    width: 17%;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#inside_card_container h4{
+    margin-bottom: 1rem;
+}
+#movie-image img{
+    height: 40vh;
+    width: 100%;
+}
+#icons-main-div{
+    display: flex;
+    justify-content: space-between;
+}
+#icons-main-div div{
+    margin-right:2%;
+}
+#icons-main-div i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#inside-footer{
+    display: flex;
+    justify-content: center;
+}
+#inside-footer div{
+    margin: 0% 0.2%;
+}
+#inside-footer div button{
+  padding: 5px;
+  cursor: pointer;
+}
